@@ -1,6 +1,7 @@
 import nextcord
 from nextcord.ext import commands
 
+# MADE BY dis1ik3
 
 class VerifyButton(nextcord.ui.View):
     def __init__(self, role: nextcord.Role, client: commands.Bot):
@@ -32,7 +33,7 @@ class Verify(commands.Cog):
                                    description='Click the button below to get verified.',
                                    color=interaction.guild.self_role.colour)
             embed.set_thumbnail(url=self.client.user.avatar)
-            embed.set_footer(text=f'{interaction.guild.name} | Verify', icon_url=self.client.user.avatar)
+            embed.set_footer(text=f'Verify | Developed by dis1ik3', icon_url=self.client.user.avatar)
             await interaction.channel.send(embed=embed, view=VerifyButton(self.role, client=self.client))
             await interaction.response.send_message(f'Success.', ephemeral=True)
         else:

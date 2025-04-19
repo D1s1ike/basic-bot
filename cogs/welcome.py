@@ -27,12 +27,12 @@ class Welcome(commands.Cog):
         embed.timestamp = datetime.now()
         g_icon = member.guild.icon.url if member.guild.icon else None
         u_icon = member.display_avatar.url if member.display_avatar else None
-        embed.set_footer(icon_url=g_icon, text=f'{member.guild.name} | Welcome \u200b')
+        embed.set_footer(icon_url=g_icon, text=f'Welcome | Developed by dis1ik3 \u200b')
         if member.display_avatar:
             embed.set_thumbnail(url=u_icon)
         view = ui.View(timeout=None)
         view.add_item(ui.Button(label=f'You are the {member.guild.member_count}th Member!',
-                                style=self.client.cfg['buttonStyle'], disabled=True))
+                                style=self.client.cfg.get('buttonStyle', ButtonStyle.green), disabled=True))
         try:
             await self.channel.send(embed=embed, view=view)
         except Exception as e:

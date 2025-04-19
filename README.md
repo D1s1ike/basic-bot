@@ -49,6 +49,7 @@ Example configuration:
   "guildId": 1000000000000000,                  // Your Discord server (guild) ID
   "prefix": ["!", "?"],                         // Bot command prefixes
   "verifyRole": 123456789012345678,             // Role ID for verification system
+  "staffRole": 123456789012345678,              // Staff Role ID
   "buttonStyle": 1                              // Button style for verify system
 }
 ```
@@ -83,7 +84,33 @@ Or, if the main file has a different name, replace `main.py` with the correct fi
 - **Welcome System**:  
   The bot sends a welcome message to greet new members when they join your Discord server.
 
-_More systems and features coming soon!_
+---
+
+## 🧩 Command List
+
+Here are the main commands for setting up and managing your server’s verification and welcome systems:
+
+### 🔐 Verify System
+
+#### `/setup-verify [Channel]` (Administrator Only)
+Set up the verification system in a specified channel.  
+When you use this command, the bot will send a verification message with a button in the chosen channel. Members can click the button to verify themselves and automatically receive the configured verification role.
+
+**Example:**  
+`/setup-verify #verify-here`  
+*Creates a verification message in the `#verify-here` channel.*
+
+---
+
+### 👋 Welcome System
+
+#### `/setup-welcome [Channel]` (Administrator Only)
+Set up the welcome system in a specified channel.  
+When a new member joins your server, the bot will greet them in the selected channel with a customizable welcome message.
+
+**Example:**  
+`/setup-welcome #welcome`  
+*The bot will send welcome messages to the `#welcome` channel whenever someone joins.*
 
 ---
 

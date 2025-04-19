@@ -3,6 +3,6 @@
     "guildId": 1000000000000000,
     "prefix": ["!", "?"],
     "verifyRole": 1000000000000000,
-    "buttonStyle": 1,
-    "style_options": "Blurple: 1, Gray: 2, Green: 3, Red: 4"
+    "staffRole": 1000000000000000,
+    "buttonStyle": 1
 }
