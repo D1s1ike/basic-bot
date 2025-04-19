@@ -29,8 +29,8 @@ This bot is built using **Python** and the powerful **Nextcord** library—makin
 
 ### 1. **Clone the Repository**
 ```bash
-git clone https://github.com/D1s1ike/public-bot.git
-cd public-bot
+git clone https://github.com/D1s1ike/basic-bot.git
+cd basic-bot
 ```
 
 ### 2. **Install Requirements**
