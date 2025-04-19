@@ -7,7 +7,7 @@ This bot is built using **Python** and the powerful **Nextcord** library—makin
 
 ## 🌐 Connect with dis1ik3
 
-- **Discord Server & Bot Hub:** [Dislike Lab](https://discord.gg/dislike-lab)  
+- **Discord Server & Bot Hub:** [Dislike's Lab](https://discord.gg/dislike-lab)  
   Join to get updates, support, and discover other bots and web development projects.
 
 ---
@@ -18,7 +18,8 @@ This bot is built using **Python** and the powerful **Nextcord** library—makin
 - Simple configuration via `config.json`
 - Customizable bot prefix and button styles
 - Easy dependency management with `requirements.txt`
-- **Simple Systems Included:**
+- Open source project
+- **Systems Included:**
   - **Verify System**: Allows users to verify themselves and receive a specific role.
   - **Welcome System**: Greets new members when they join your server.
 
@@ -28,8 +29,8 @@ This bot is built using **Python** and the powerful **Nextcord** library—makin
 
 ### 1. **Clone the Repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/D1s1ike/public-bot.git
+cd public-bot
 ```
 
 ### 2. **Install Requirements**
@@ -68,13 +69,13 @@ Example configuration:
 
 After configuration:
 ```bash
-python bot.py
+python main.py
 ```
-Or, if the main file has a different name, replace `bot.py` with the correct filename.
+Or, if the main file has a different name, replace `main.py` with the correct filename.
 
 ---
 
-## 📋 Simple Systems List
+## 📋 Systems List
 
 - **Verify System**:  
   Users can verify themselves by clicking a button. When verified, the bot assigns them a designated role.
@@ -90,7 +91,7 @@ _More systems and features coming soon!_
 
 - [Nextcord Documentation](https://docs.nextcord.dev/)
 - [Python Official Site](https://www.python.org/)
-- [Dislike Lab Discord](https://discord.gg/dislike-lab)
+- [Dislike's Lab Discord](https://discord.gg/dislike-lab)
 
 ---
 
@@ -100,10 +101,4 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ---
 
-## 📝 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-**Made with ❤️ by dis1ik3 — [Dislike Lab](https://discord.gg/dislike-lab)**
+**Made with ❤️ by dis1ik3 — [Dislike's Lab](https://discord.gg/dislike-lab)**

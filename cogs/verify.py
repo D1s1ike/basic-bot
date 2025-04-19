@@ -25,7 +25,7 @@ class Verify(commands.Cog):
         self.role = None
         self.client = client
 
-    @nextcord.slash_command(name='verify-setup')
+    @nextcord.slash_command(name='setup-verify', description='Setup channel for verify system')
     async def set_verify(self, interaction: nextcord.Interaction):
         if interaction.user.guild_permissions.administrator:
             embed = nextcord.Embed(title=f'Welcome to {interaction.guild.name}\'s Verify.',
