@@ -22,6 +22,7 @@ This bot is built using **Python** and the powerful **Nextcord** library—makin
 - **Systems Included:**
   - **Verify System**: Allows users to verify themselves and receive a specific role.
   - **Welcome System**: Greets new members when they join your server.
+  - **Status System** Displays members amount in the bot status
 
 ---
 
